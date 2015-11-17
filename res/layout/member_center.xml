@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/page_background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@null"
+            android:padding="10dp"
+            android:src="@drawable/icon_head_back"
+            android:visibility="invisible" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/text_main_title"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:text="@string/member_page_center"/>
+    </RelativeLayout>
+    
+    <!-- 会员功能 -->
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/gray_line" />
+	<RelativeLayout
+	    android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-14dp">
+           <Button
+            android:id="@+id/member_profile"
+            style="@style/member_center_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding ="10dp"
+            android:drawableLeft="@drawable/member_icon_center"
+            android:text="@string/member_page_profile" />
+       	<TextView
+            	android:id="@+id/member_profile_arrow"
+            	android:background="@null"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop= "28dp"
+	            android:textSize="18sp"
+	            android:paddingRight ="10dp"
+	            android:drawablePadding = "5dp"
+	            android:gravity="center_vertical|right"
+	            android:layout_alignParentRight="true"
+	            android:drawableRight="@drawable/right_arrow" />
+     
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/gray_line" />
+        
+        <Button
+            android:id="@+id/member_change_password"
+            style="@style/member_center_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding ="10dp"
+            android:layout_marginTop="1dp"
+            android:drawableLeft="@drawable/member_icon_password"
+        	android:drawableRight="@drawable/right_arrow"
+            android:text="@string/member_page_password" />
+        
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/gray_line" />
+    <RelativeLayout
+	    android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/member_phone"
+            style="@style/member_center_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding ="10dp"
+            android:layout_marginTop="1dp"
+            android:drawableLeft="@drawable/member_icon_phone"
+            android:text="@string/member_page_phone" />
+       <TextView
+          	android:id="@+id/member_phone_arrow"
+           	android:background="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+	        android:layout_marginTop= "15dp"
+	        android:textSize="18sp"
+	        android:paddingRight ="10dp"
+	        android:drawablePadding = "5dp"
+	        android:gravity="center_vertical|right"
+	        android:layout_alignParentRight="true"
+            android:drawableRight="@drawable/right_arrow" />
+     
+        </RelativeLayout>     
+        
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/gray_line" />
+    <RelativeLayout
+	    android:layout_width="match_parent"
+        android:layout_height="wrap_content">     
+        <Button
+            android:id="@+id/member_debit_card"
+            style="@style/member_center_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding ="10dp"
+            android:layout_marginTop="1dp"
+            android:drawableLeft="@drawable/member_icon_card"
+            android:text="@string/member_page_card" />
+       <TextView
+            android:id="@+id/member_card_arrow"
+           	android:background="@null"
+	        android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+	        android:layout_marginTop= "15dp"
+	        android:textSize="18sp"
+	        android:textColor="@color/font_orange"
+            android:text="@string/member_complete_card"
+	        android:paddingRight ="10dp"
+            android:gravity="center_vertical|right"
+            android:layout_alignParentRight="true"
+            android:drawablePadding = "5dp"
+            android:drawableRight="@drawable/right_arrow" />
+     
+    </RelativeLayout>
+
+        <Button
+            android:id="@+id/member_bill"
+            style="@style/member_center_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding ="10dp"
+            android:layout_marginTop="18dp"
+            android:drawableLeft="@drawable/member_icon_bill"
+            android:drawableRight="@drawable/right_arrow"
+            android:text="@string/member_page_bill"/>
+              
+   		<LinearLayout 
+	    	android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:background="@color/page_background"
+	    	android:orientation="vertical"
+	    	android:padding="20dp" >	    	    
+	    
+            <Button
+	        	android:id="@+id/member_logout"
+	        	style="@style/btn_orange"
+	        	android:textSize="18sp"
+	        	android:layout_width="match_parent"
+	        	android:layout_height="wrap_content"
+	        	android:layout_marginTop="18dp"
+	        	android:layout_gravity="center_horizontal"
+	        	android:text="@string/member_logout" />
+        </LinearLayout>
+   
+
+</LinearLayout>

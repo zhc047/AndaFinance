@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/page_background"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/tab_background" >
+
+        <ImageButton
+            android:id="@+id/header_btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@null"
+            android:padding="10dp"
+            android:src="@drawable/icon_head_back" />
+
+        <TextView
+            android:id="@+id/header_title"
+            style="@style/text_main_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp" />
+
+        <ImageButton
+            android:id="@+id/header_btn_settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@null"
+            android:padding="10dp"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <FrameLayout
+            android:id="@+id/base_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/page_background" />
+
+        <TextView
+            android:id="@+id/base_nodata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:drawablePadding="20dp"
+            android:drawableTop="@drawable/icon_empty"
+            android:text="抱歉，没有符合条件的内容"
+            android:textColor="@color/gray"
+            android:textSize="15sp"
+            android:visibility="gone" >
+        </TextView>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Anda</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    
+    <!-- 会员 -->
+    <string name="member_page_center">我</string>
+    <string name="member_page_profile">我的账号</string>
+    <string name="member_page_password">修改密码</string>
+    <string name="member_page_phone">手机号码</string>
+    <string name="member_page_card">我的银行卡</string>
+    <string name="member_complete_card">完善信息</string>
+    <string name="member_page_bill">我的账单</string>
+    <string name="member_logout">退出登录</string>
+    <string name="member_page_detail">个人信息</string>
+    <string name="member_label_name">姓名</string>
+    <string name="member_label_gender">性别</string>
+    <string name="member_label_phone">联系电话</string>
+    <string name="member_label_email">电子邮箱</string>
+    <string name="member_label_city">所在城市</string>
+    <string name="member_label_debit">借记卡卡号</string>
+    <string name="member_label_ID">身份证号码</string>
+    <string name="member_label_reserved_phone">开户手机</string>
+    
+    <string name="member_detail_change_name">修改姓名</string>
+    <string name="member_detail_change_id">修改身份证号</string>
+    <string name="member_detail_change_gender">修改性别</string>
+    <string name="member_hint_password_current">原密码</string>
+    <string name="member_hint_password_new">新密码</string>
+    <string name="member_hint_password_confirm">重复新密码</string>
+    
+    <string name="member_hint_phone_new">新手机号码</string>
+    <string name="member_confirm_old_phone">验证原手机号</string>
+    <string name="member_update_phone">更新手机号</string>
+    
+    <string name="member_forgot_password">忘记密码</string>
+    <string name="member_hint_password_phone">请输入注册时的手机号</string>
+    <string name="member_reset_password">重设密码</string>
+    <string name="member_reset_password_confirm_phone">手机号确认</string>
+    
+
+    <string name="member_hint_username">请输入用户名或手机号</string>
+    <string name="member_hint_password">请输入密码</string>
+    <string name="member_login">登录</string>
+    <string name="member_register">注册</string>
+	<string name="member_page_login">登录</string>
+    <string name="member_login_error_account">登录失败，请检查您的账号密码。</string>
+    <string name="member_login_error_network">登录失败，网络错误。</string>
+    <string name="member_login_success">登录成功</string>
+    
+    <string name="member_hint_phone">请输入手机号</string>
+    <string name="member_next">下一步</string>    
+    <string name="member_hint_code">请输入验证码</string>
+    <string name="member_hint_createUsername">创建用户名</string>
+    <string name="member_hint_setPassword">设置密码</string>
+    <string name="member_hint_rePassword">重复密码</string>
+    <string name="member_hint_realName">请输入真实姓名</string>
+    <string name="member_hint_IDCard">请输入身份证号</string>
+    <string name="member_hint_gender">性别</string>
+    <string name="member_hint_city">选择城市</string>
+    <string name="member_captcha">获取验证码</string>
+    <string name="member_register_detail">注册安达会员</string>
+    <string name="member_code_sent">验证码已发送，请注意查收短信。</string>
+    <string name="member_code_sent_failure">验证码发送失败，请稍后再试。</string>
+    <string name="member_code_failure">验证失败，验证码错误</string>
+    <string name="member_register_network">注册失败，网络错误。</string>
+    <string name="member_username_failure">用户名不可用</string>
+    <string name="member_register_province">请选择省份</string>
+    <string name="member_register_city">请选择城市</string>
+    <string name="member_finished">完成</string>
+    <string name="member_hint_debit">请输入借记卡卡号</string>
+    <string name="member_hint_bank">请选择开户行</string>
+    <string name="member_hint_cardholder">请输入持卡人姓名</string>
+    <string name="member_hint_reserved_phone">请输入借记卡在银行的预留手机号码</string>
+    <string name="member_register_bank_notice">请绑定您本人的银行借记卡信息。我们将通过此借记卡向您支付以后的业务报酬。</string>
+    <string name="member_register_bank">完善您的财务信息</string>
+    <string name="member_register_choose_bank">请选择银行</string>
+    <string name="member_register_failure">用户注册失败</string>
+    <string name="member_register_skip">跳过</string>
+    <string name="member_phone_registed">该手机号已被注册</string>
+    <string name="member_phone_not_registed">该手机号未被注册</string>
+    <string name="member_register_success">注册成功</string>
+    <string name="invalid_username_error">请输入合法的用户名，确保用户名只存在数字、字母、下划线,单引号,英文句号,减号！</string>
+    <string name="username_number_error">用户名不能为纯数字！</string>
+    <string name="username_dots_error">用户名不能包含超过连续两个小数点！</string>
+    <string name="username_length_error">请控制用户名的长度在6~40个字符之间！</string>
+    <string name="register_agree">我同意</string>
+    <string name="register_contract">安达金融用户服务条款</string>
+    <string name="member_agree_contract">注册请先同意服务条款</string>
+    
+    <string name="total_amount">总奖金</string>
+    <string name="yearly_total_amount">年度奖金</string>
+    <string name="footer_more">点击查看更多</string>
+    <string name="footer_loading">正在加载</string>
+    
+    <!-- 对话框 -->
+    <string name="dialog_cancel">取消</string>
+    <string name="dialog_submit">确定</string>
+    <string name="dialog_message_logout">是否要退出登录？</string>
+</resources>

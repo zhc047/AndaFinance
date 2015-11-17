@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?><android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/member_swipe_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/page_background" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+                
+            <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/gray_line" />
+           <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/member_detail_label"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/member_label_name" />
+
+                <TextView
+                    android:id="@+id/member_name"
+                    style="@style/member_detail_text"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2" 
+                    android:gravity="right"
+                    android:drawablePadding = "5dp"
+                    android:drawableRight="@drawable/right_arrow" />
+   
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/gray_line"/>
+            
+                        
+             <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/member_detail_label"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/member_label_ID" />
+
+                <TextView
+                    android:id="@+id/member_IDcard"
+                    style="@style/member_detail_text"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2" 
+                    android:gravity="right"
+                    android:drawablePadding = "5dp"
+                    android:drawableRight="@drawable/right_arrow" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/gray_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/member_detail_label"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/member_label_gender" />
+
+                <TextView
+                    android:id="@+id/member_gender"
+                    style="@style/member_detail_text"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="right"
+                    android:drawablePadding = "5dp"
+                    android:drawableRight="@drawable/right_arrow"  />
+            </LinearLayout>
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/gray_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/member_detail_label"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/member_label_city" />
+
+                <TextView
+                    android:id="@+id/member_city"
+                    style="@style/member_detail_text"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2" 
+                    android:gravity="right"
+                    android:drawablePadding = "5dp"
+                    android:drawableRight="@drawable/right_arrow" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/gray_line" />
+
+        </LinearLayout>
+</android.support.v4.widget.SwipeRefreshLayout>

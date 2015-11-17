@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/main_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/page_background" >
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/main_tab_container"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/tab_background"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/main_tab_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:onClick="tabClick"
+            android:padding="8dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/dw_tab_1" />
+
+        <ImageButton
+            android:id="@+id/main_tab_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:onClick="tabClick"
+            android:padding="8dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/dw_tab_2" />
+
+        <ImageButton
+            android:id="@+id/main_tab_3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:onClick="tabClick"
+            android:padding="8dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/dw_tab_3" />
+
+        <ImageButton
+            android:id="@+id/main_tab_4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:onClick="tabClick"
+            android:padding="8dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/dw_tab_4" />
+    </LinearLayout>
+
+</LinearLayout>

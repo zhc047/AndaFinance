@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/page_background"
+    android:orientation="vertical"
+    android:padding="15dp" >
+    
+	<ImageView
+    	android:layout_width="match_parent"
+        android:layout_height="120dp"
+   	    android:src="@drawable/member_login_logo"
+   	    android:scaleType="centerInside"
+    />
+	
+
+       <EditText
+        android:id="@+id/login_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/input_white"
+        android:hint="@string/member_hint_username"
+        android:singleLine="true" />
+
+	<RelativeLayout
+	    android:id="@+id/login_password_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+	    
+   	    <EditText
+        	android:id="@+id/login_password"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_marginTop="20dp"
+        	android:paddingLeft="10dp"
+        	android:background="@drawable/input_white"
+        	android:hint="@string/member_hint_password"
+        	android:inputType="textPassword"
+        	android:singleLine="true" />
+    
+        <ImageButton
+            android:id="@+id/login_forgot_password"
+    		android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:background="@drawable/btn_white"
+        	android:layout_marginTop="26dp"
+        	android:layout_marginRight="6dp"
+   	    	android:src="@drawable/member_forget_password"
+   	    	android:layout_alignParentRight="true"
+   	    	android:scaleType="centerInside"
+        />
+
+    </RelativeLayout>
+    <Button
+        android:id="@+id/login_submit"
+        style="@style/btn_orange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/member_login" />
+
+    <Button
+        android:id="@+id/register_start"
+        style="@style/btn_gold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/member_register" />
+    
+
+</LinearLayout>
